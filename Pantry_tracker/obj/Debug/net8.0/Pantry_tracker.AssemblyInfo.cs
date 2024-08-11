@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pantry_tracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c31d8df751b5f83724e3e7b14f45b5ef118e155e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+330283620cdffe274353aeebc7724552fbff109e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pantry_tracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pantry_tracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
