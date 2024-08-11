@@ -9,12 +9,12 @@
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+      "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+      "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap.min.js"
     },
     {
       "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\favicon.png",
@@ -23,6 +23,10 @@
     {
       "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\hero-bg.jpg",
       "PackagePath": "staticwebassets\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\home.css",
+      "PackagePath": "staticwebassets\\home.css"
     },
     {
       "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\style.css",

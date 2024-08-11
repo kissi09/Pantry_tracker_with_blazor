@@ -16,7 +16,6 @@ main[b-r748kzd2wk] {
     background-color: #f7f7f7;
     border-bottom: 1px solid #d6d5d5;
     justify-content: flex-end;
-    height: 3.5rem;
     display: flex;
     align-items: center;
 }
@@ -93,9 +92,4 @@ main[b-r748kzd2wk] {
         position: absolute;
         right: 0.75rem;
         top: 0.5rem;
-    }
-
-    .button-1[b-r748kzd2wk]{
-        color:violet;
-
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j8ucqQNyMesUOcQCZNn6oPUuEW3N5RLhmHkmHzJQVR0=",
+  "Hash": "hP3D9txpDlmjUbsoW/uLUABntaFwkbDK5e4NnIHgXKA=",
   "Source": "Pantry_tracker",
   "BasePath": "_content/Pantry_tracker",
   "Mode": "Default",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\bootstrap.min.css",
       "SourceId": "Pantry_tracker",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\",
       "BasePath": "_content/Pantry_tracker",
-      "RelativePath": "bootstrap/bootstrap.min.css",
+      "RelativePath": "bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\bootstrap.min.js",
       "SourceId": "Pantry_tracker",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\",
       "BasePath": "_content/Pantry_tracker",
-      "RelativePath": "bootstrap/bootstrap.min.css.map",
+      "RelativePath": "bootstrap.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\bootstrap.min.js"
     },
     {
       "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\favicon.png",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\hero-bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\home.css",
+      "SourceId": "Pantry_tracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\",
+      "BasePath": "_content/Pantry_tracker",
+      "RelativePath": "home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home.css"
     },
     {
       "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\style.css",

@@ -1,130 +1,104 @@
 
-
-sub_body {
+.sub_body{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  width: 100%;
-  padding: 0 10px;
+  height: 100vh;
+  background: #1abc9c;
+  overflow: hidden;
 }
 
-sub_body::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: url("https://www.codingnepalweb.com/demos/create-glassmorphism-login-form-html-css/hero-bg.jpg"), #ffffff;
-  background-position: center;
-  background-size: cover;
+::selection {
+  background: rgba(26, 188, 156, 0.3);
 }
-
 .wrapper {
-  width: 400px;
-  border-radius: 8px;
-  padding: 30px;
-  text-align: center;
-  border: 1px solid rgba(218, 84, 177, 0.5);
-  backdrop-filter: blur(9px);
-  -webkit-backdrop-filter: blur(9px);
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #c44a9f;
-}
-
-.input-field {
-  position: relative;
-  border-bottom: 2px solid #c25795;
-  margin: 15px 0;
-}
-
-.input-field label {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  color: #c25795;
-  font-size: 16px;
-  pointer-events: none;
-  transition: 0.15s ease;
-}
-
-.input-field input {
+  max-width: 500px;
   width: 100%;
-  height: 40px;
-  background: transparent;
-  border: none;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.wrapper .title {
+  height: 120px;
+  background: #16a085;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form {
+  padding: 25px 35px;
+}
+.wrapper form .row {
+  height: 60px;
+  margin-top: 15px;
+  position: relative;
+}
+.wrapper form .row input {
+  height: 100%;
+  width: 100%;
   outline: none;
-  font-size: 16px;
-  color: #000000;
+  padding-left: 70px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 18px;
+  transition: all 0.3s ease;
 }
-
-.input-field input:focus~label,
-.input-field input:valid~label {
-  font-size: 0.8rem;
-  top: 10px;
-  transform: translateY(-120%);
+form .row input:focus {
+  border-color: #16a085;
 }
-
-.forget {
+form .row input::placeholder {
+  color: #999;
+}
+.wrapper form .row i {
+  position: absolute;
+  width: 55px;
+  height: 100%;
+  color: #fff;
+  font-size: 22px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  border-radius: 5px 0 0 5px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 25px 0 35px 0;
-  color: #c44a9f;
+  justify-content: center;
 }
-
-#remember {
-  accent-color: #c44a9f;
+.wrapper form .pass {
+  margin-top: 12px;
 }
-
-.forget label {
-  display: flex;
-  align-items: center;
-}
-
-.forget label p {
-  margin-left: 8px;
-}
-
-.wrapper a {
-  color: #c25795;
+.wrapper form .pass a {
+  color: #16a085;
+  font-size: 17px;
   text-decoration: none;
 }
-
-.wrapper a:hover {
+.wrapper form .pass a:hover {
   text-decoration: underline;
 }
-
-button {
-  background: #c44a9f;
-  color: #000;
-  font-weight: 600;
-  border: none;
-  padding: 12px 20px;
+.wrapper form .button input {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #16a085;
+  border: 1px solid #16a085;
   cursor: pointer;
-  border-radius: 3px;
-  font-size: 16px;
-  border: 2px solid transparent;
-  transition: 0.3s ease;
 }
-
-button:hover {
-  color: #c44a9f;
-  border-color: #c25795;
-  background: rgba(255, 255, 255, 0.15);
+form .button input:hover {
+  background: #12876f;
 }
-
-.register {
+.wrapper form .signup-link {
   text-align: center;
-  margin-top: 30px;
-  color: #c44a9f;
+  margin-top: 45px;
+  font-size: 17px;
+}
+.wrapper form .signup-link a {
+  color: #16a085;
+  text-decoration: none;
+}
+form .signup-link a:hover {
+  text-decoration: underline;
 }
