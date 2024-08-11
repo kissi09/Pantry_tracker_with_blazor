@@ -1,109 +1,130 @@
+
+
+sub_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 10px;
+}
+
+sub_body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://www.codingnepalweb.com/demos/create-glassmorphism-login-form-html-css/hero-bg.jpg"), #ffffff;
+  background-position: center;
+  background-size: cover;
+}
+
 .wrapper {
-    width: 400px;
-    border-radius: 8px;
-    padding: 30px;
-    text-align: center;
-    border: 1px solid rgba(133, 26, 233, 0.5);
-    backdrop-filter: blur(9px);
-    -webkit-backdrop-filter: blur(9px);
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #d223f5;
-  }
-  
-  .input-field {
-    position: relative;
-    border-bottom: 2px solid #de43ec;
-    margin: 15px 0;
-  }
-  
-  .input-field label {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    color: #da57b2;
-    font-size: 16px;
-    pointer-events: none;
-    transition: 0.15s ease;
-  }
-  
-  .input-field input {
-    width: 100%;
-    height: 40px;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    color: #d850c6;
-  }
-  
-  .input-field input:focus~label,
-  .input-field input:valid~label {
-    font-size: 0.8rem;
-    top: 10px;
-    transform: translateY(-120%);
-  }
-  
-  .forget {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 25px 0 35px 0;
-    color: #db4ac3;
-  }
-  
-  #remember {
-    accent-color: #d651b5;
-  }
-  
-  .forget label {
-    display: flex;
-    align-items: center;
-  }
-  
-  .forget label p {
-    margin-left: 8px;
-  }
-  
-  .wrapper a {
-    color: #d461d8;
-    text-decoration: none;
-  }
-  
-  .wrapper a:hover {
-    text-decoration: underline;
-  }
-  
-  button {
-    background: #d66ce4;
-    color: #000;
-    font-weight: 600;
-    border: none;
-    padding: 12px 20px;
-    cursor: pointer;
-    border-radius: 3px;
-    font-size: 16px;
-    border: 2px solid transparent;
-    transition: 0.3s ease;
-  }
-  
-  button:hover {
-    color: #992cf3;
-    border-color: #992cf3;
-    background: rgba(255, 255, 255, 0.15);
-  }
-  
-  .register {
-    text-align: center;
-    margin-top: 30px;
-    color: #d873c2;
-  }
+  width: 400px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgba(218, 84, 177, 0.5);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #c44a9f;
+}
+
+.input-field {
+  position: relative;
+  border-bottom: 2px solid #c25795;
+  margin: 15px 0;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #c25795;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+}
+
+.input-field input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #000000;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+  font-size: 0.8rem;
+  top: 10px;
+  transform: translateY(-120%);
+}
+
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 35px 0;
+  color: #c44a9f;
+}
+
+#remember {
+  accent-color: #c44a9f;
+}
+
+.forget label {
+  display: flex;
+  align-items: center;
+}
+
+.forget label p {
+  margin-left: 8px;
+}
+
+.wrapper a {
+  color: #c25795;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: #c44a9f;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  color: #c44a9f;
+  border-color: #c25795;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.register {
+  text-align: center;
+  margin-top: 30px;
+  color: #c44a9f;
+}
