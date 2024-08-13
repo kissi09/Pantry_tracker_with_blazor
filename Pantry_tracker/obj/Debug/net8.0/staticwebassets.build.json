@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U+gBpYeNQL75RgB4V/Be1k/J70MIddTVBQOoLQFhBts=",
+  "Hash": "HpfkI2dd33+otYqFRC7Baa1BxzYf6/rTs0Sl1C/7NLs=",
   "Source": "Pantry_tracker",
   "BasePath": "_content/Pantry_tracker",
   "Mode": "Default",
@@ -112,12 +112,12 @@
       "OriginalItemSpec": "wwwroot\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\dashboard.css",
+      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\Chart.min.js",
       "SourceId": "Pantry_tracker",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\",
       "BasePath": "_content/Pantry_tracker",
-      "RelativePath": "dashboard.css",
+      "RelativePath": "Chart.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\dashboard.css"
+      "OriginalItemSpec": "wwwroot\\Chart.min.js"
     },
     {
       "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\favicon.png",
@@ -150,6 +150,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
+      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\feather.min.js",
+      "SourceId": "Pantry_tracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\",
+      "BasePath": "_content/Pantry_tracker",
+      "RelativePath": "feather.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\feather.min.js"
+    },
+    {
       "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\hero-bg.jpg",
       "SourceId": "Pantry_tracker",
       "SourceType": "Discovered",
@@ -169,12 +188,12 @@
       "OriginalItemSpec": "wwwroot\\hero-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\home.css",
+      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\jquery-3.2.1.slim.min.js",
       "SourceId": "Pantry_tracker",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\",
       "BasePath": "_content/Pantry_tracker",
-      "RelativePath": "home.css",
+      "RelativePath": "jquery-3.2.1.slim.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\home.css"
+      "OriginalItemSpec": "wwwroot\\jquery-3.2.1.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\style.css",
+      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\popper.min.js",
       "SourceId": "Pantry_tracker",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\",
       "BasePath": "_content/Pantry_tracker",
-      "RelativePath": "style.css",
+      "RelativePath": "popper.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +223,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\style.css"
+      "OriginalItemSpec": "wwwroot\\popper.min.js"
     }
   ]
 }
