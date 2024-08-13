@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\Chart.min.js"
     },
     {
-      "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\app.css",
-      "PackagePath": "staticwebassets\\app.css"
-    },
-    {
       "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap.min.css"
     },
@@ -39,6 +35,10 @@
     {
       "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\popper.min.js",
       "PackagePath": "staticwebassets\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Pantry_tracker.Microsoft.AspNetCore.StaticWebAssets.props",

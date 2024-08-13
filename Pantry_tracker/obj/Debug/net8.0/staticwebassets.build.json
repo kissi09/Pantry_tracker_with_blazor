@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HpfkI2dd33+otYqFRC7Baa1BxzYf6/rTs0Sl1C/7NLs=",
+  "Hash": "D09NXz+fPo/Gc6uM7uTcKK2l6l20yBZPleTZg95ZbaE=",
   "Source": "Pantry_tracker",
   "BasePath": "_content/Pantry_tracker",
   "Mode": "Default",
@@ -53,25 +53,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Pantry_tracker.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\app.css",
-      "SourceId": "Pantry_tracker",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\",
-      "BasePath": "_content/Pantry_tracker",
-      "RelativePath": "app.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
       "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\bootstrap.min.css",
@@ -224,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\popper.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\styles.css",
+      "SourceId": "Pantry_tracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kissi\\Documents\\GitHub\\Pantry_tracker_with_blazor\\Pantry_tracker\\wwwroot\\",
+      "BasePath": "_content/Pantry_tracker",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
     }
   ]
 }

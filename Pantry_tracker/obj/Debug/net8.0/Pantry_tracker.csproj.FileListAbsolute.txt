@@ -27,3 +27,4 @@ C:\Users\kissi\Documents\GitHub\Pantry_tracker_with_blazor\Pantry_tracker\obj\De
 C:\Users\kissi\Documents\GitHub\Pantry_tracker_with_blazor\Pantry_tracker\obj\Debug\net8.0\Pantry_tracker.pdb
 C:\Users\kissi\Documents\GitHub\Pantry_tracker_with_blazor\Pantry_tracker\obj\Debug\net8.0\Pantry_tracker.genruntimeconfig.cache
 C:\Users\kissi\Documents\GitHub\Pantry_tracker_with_blazor\Pantry_tracker\obj\Debug\net8.0\ref\Pantry_tracker.dll
+C:\Users\kissi\Documents\GitHub\Pantry_tracker_with_blazor\Pantry_tracker\obj\Debug\net8.0\Pantry_tracker.sourcelink.json
