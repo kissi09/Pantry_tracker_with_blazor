@@ -1,0 +1,72 @@
+@page "/inventory"
+@inject NavigationManager NavigationManager
+
+<link rel="stylesheet" href="home.css"/>
+
+<PageTitle>Inventory Management - Home</PageTitle>
+
+<div class="container">
+    <h1 class="welcome-header">Welcome to Your Inventory Management System</h1>
+    
+    <div class="user-info">
+        <p>Logged in as: <span class="user-name">@CurrentUser</span></p>
+    </div>
+
+    <div class="action-buttons">
+        <button class="btn btn-primary" @onclick="AddItem">Add Item</button>
+    </div>
+
+    <div class="inventory-list">
+        <h2>Current Inventory</h2>
+        @if (InventoryItems.Count == 0)
+        {
+            <p>No items in inventory.</p>
+        }
+        else
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Quantity</th>
+                        <th>Last Updated</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in InventoryItems)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.LastUpdated.ToShortDateString()</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+
+@code {
+    private string CurrentUser { get; set; } = "John Doe"; // This would come from your authentication system
+
+    private List<InventoryItem> InventoryItems { get; set; } = new List<InventoryItem>
+    {
+        new InventoryItem { Name = "Widget A", Quantity = 100, LastUpdated = DateTime.Now.AddDays(-5) },
+        new InventoryItem { Name = "Gadget B", Quantity = 75, LastUpdated = DateTime.Now.AddDays(-2) },
+        new InventoryItem { Name = "Tool C", Quantity = 50, LastUpdated = DateTime.Now.AddDays(-1) }
+    };
+
+    private void AddItem()
+    {
+        // This would navigate to an Add Item page
+        NavigationManager.NavigateTo("/add-item");
+    }
+
+    public class InventoryItem
+    {
+        public string Name { get; set; }
+        public int Quantity { get; set; }
+        public DateTime LastUpdated { get; set; }
+    }
+}
