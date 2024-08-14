@@ -4,12 +4,11 @@
     <div class="top-row ps-3 navbar navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="">Inventory</a>
+            <button class="navbar-toggler" @onclick="ToggleNavBar">☰</button>
         </div>
     </div>
 
-    <input type="checkbox" title="Navigation menu" class="navbar-toggler" />
-
-    <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <div class="nav-scrollable @(IsNavBarVisible ? "show" : "")">
         <nav class="flex-column">
             <div class="nav-item px-3">
                 <NavLink class="nav-link" href="home" Match="NavLinkMatch.All">
@@ -18,12 +17,12 @@
             </div>
             
             <div class="nav-item px-3">
-                <NavLink class="nav-link" href="" @onclick="HideNavBar">
+                <NavLink class="nav-link" href="/" @onclick="HideNavBar">
                     <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Login
                 </NavLink>
             </div>
             <div class="nav-item px-3">
-                <NavLink class="nav-link" href="Inventory">
+                <NavLink class="nav-link" href="inventory">
                     <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Inventory
                 </NavLink>
             </div>
@@ -32,11 +31,16 @@
 </div>
 
 @code {
-    private bool IsNavBarVisible { get; set; } = true;
+    private bool IsNavBarVisible { get; set; } = false;
+
+    private void ToggleNavBar()
+    {
+        IsNavBarVisible = !IsNavBarVisible;
+    }
 
     private void HideNavBar()
     {
         IsNavBarVisible = false;
-        NavigationManager.NavigateTo("login");
+        NavigationManager.NavigateTo("/");
     }
 }
